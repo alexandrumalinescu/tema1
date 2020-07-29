@@ -1,0 +1,37 @@
+
+.yellow {
+  background-color: #f8d668;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.green {
+  background-color: #28aea3;
+  width: 292px;
+}
+
+.Blue {
+  background-color: #156298;
+  width: 138px;
+}
+
+.green, .Blue {
+  display: inline-block;
+  height: 60px;
+}
+
+.container {
+  
+  max-width: 700px;
+  max-height: 700px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.green, .yellow, .Blue, .container {
+  border-radius: 10px ;
+  margin: 6px;
+}

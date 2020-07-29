@@ -1,0 +1,32 @@
+.container {
+  background-color: grey;
+  width: 100vh;
+  height: 60vh;
+  margin: 20vh 50vh auto 50vh;
+  
+}
+
+.yellow {
+  width: 390px;
+  
+  background-color: yellow;
+  border: 5px solid yellow;
+  border-radius: 5px;  
+}
+
+.green {
+  background-color: green;
+  border: 5px solid green;
+  display: grid;
+  grid-template-columns: 195px;
+}
+
+.Blue {
+  background-color: blue;
+  border: 5px solid blue;
+}
+
+.green, .Blue, .yellow {
+  margin: 5px;
+  height: 30px;
+}
